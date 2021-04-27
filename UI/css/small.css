@@ -55,3 +55,46 @@ footer p {
   display: table;
   clear: both;
 }
+
+button#hamburgerBtn {
+    background: none;
+    border: none;
+    color: #000;
+    font-size: 2.4rem;
+    cursor: pointer;
+    padding: 0 30px 0 2vw;
+  }
+  
+  nav {
+    background-color: #fff;
+    height: 75px;
+    width: 100%;
+  }
+  nav ul {
+    margin: 0;
+    padding: 0;
+  }
+  nav ul li {
+    list-style: none;
+  }
+  nav a {
+    display: block;
+    padding: 0.8rem 0;
+    color: #000;
+    text-align: center;
+    text-decoration: none;
+  }
+  nav li.active {
+    background-color: #ea7125);
+  }
+  nav a:hover {
+    background-color: #ea7125;
+  }
+  nav ul.open {
+    display: block;
+  }
+  nav ul {
+    display: none;
+  }
+  
+ 
